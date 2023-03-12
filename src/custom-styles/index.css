@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul > a {
+  margin-inline: 10px;
+}
+
+#content {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+#logo {
+  color: rgb(255, 0, 144);
+}
+
+#feed h2 {
+  text-transform: capitalize;
+}
+
+#loader__icon {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #ffe9ec;
+  border-top: 10px solid rgb(221, 12, 102);
+  border-radius: 100%;
+  margin: 20px auto;
+
+  animation-name: Loader-Icon-Spin;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#blogs_showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+#feed {
+  padding: 20px 0;
+}
+
+.blog_preview {
+  padding: 20px;
+  border: 10px;
+  margin: 10px 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  text-align: center;
+  border: 1px rgba(199, 199, 199, 0.379) solid;
+
+  transition: all 0.4s;
+}
+
+.blog_preview:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.181);
+}
+
+.blog_preview button {
+  border: none;
+  background-color: rgba(221, 12, 103, 0.774);
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#create_form {
+  padding: 10px 0;
+}
+
+#create_form label {
+  display: block;
+  font-size: 20px;
+  color: #333;
+
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#create_form input[type="text"],
+#create_form textarea {
+  border: none;
+  border-bottom: 2px rgba(81, 81, 81, 0.422) solid;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#create_form button {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: hotpink;
+  margin-top: 30px;
+}
+
+@keyframes Loader-Icon-Spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

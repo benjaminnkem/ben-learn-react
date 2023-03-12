@@ -1,0 +1,52 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "How to make lemonader",
+      "body": "lorem ipsum dolor brean malix...",
+      "author": "Nkem Benjamin"
+    },
+    {
+      "id": 4,
+      "title": "Is technology advancing",
+      "body": "lorem ipsum dolor brean malix...",
+      "author": "Nkem Benjamin"
+    },
+    {
+      "id": 5,
+      "title": "React is just a Javascript Library",
+      "body": "lorem ipsum dolor brean malix...",
+      "author": "Nkem Benjamin"
+    },
+    {
+      "title": "How to make money",
+      "body": "This is a very simple technique",
+      "author": "benjamin",
+      "id": 6
+    },
+    {
+      "title": "New Blog!",
+      "body": "Just find out what's going on for now",
+      "author": "milo",
+      "id": 7
+    },
+    {
+      "title": "How to feed yourself",
+      "body": "This is a very simple way of feeding yourself, just make sure you get moeny...",
+      "author": "benjamin",
+      "id": 10
+    },
+    {
+      "title": "What causes cough updated",
+      "body": "Mado",
+      "author": "benjamin",
+      "id": 12
+    },
+    {
+      "title": "Updater",
+      "body": "Make it wor",
+      "author": "benjamin",
+      "id": 13
+    }
+  ]
+}
