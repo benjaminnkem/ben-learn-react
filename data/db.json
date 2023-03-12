@@ -1,0 +1,29 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "How to make lemonader",
+      "body": "lorem ipsum dolor brean malix..."
+    },
+    {
+      "id": 2,
+      "title": "Why do people hiccup",
+      "body": "lorem ipsum dolor brean malix..."
+    },
+    {
+      "id": 3,
+      "title": "What causes cough",
+      "body": "lorem ipsum dolor brean malix..."
+    },
+    {
+      "id": 4,
+      "title": "Is technology advancing",
+      "body": "lorem ipsum dolor brean malix..."
+    },
+    {
+      "id": 5,
+      "title": "React is just a Javascript Library",
+      "body": "lorem ipsum dolor brean malix..."
+    }
+  ]
+}
